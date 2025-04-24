@@ -1,5 +1,4 @@
 @import "tailwindcss";
 @theme {
-    --text-huge: 15rem; 
-  }
-
+	--text-huge: 12rem;
+}
