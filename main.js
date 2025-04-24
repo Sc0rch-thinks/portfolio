@@ -1,4 +1,4 @@
-import { gsap } from "./node_modules/gsap/index.js";
+import { gsap } from "./src/node_modules/gsap/index.js";
 
 document.addEventListener("DOMContentLoaded", start);
 
