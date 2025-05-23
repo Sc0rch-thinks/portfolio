@@ -1,25 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="main.css" />
-		<link rel="stylesheet" href="lenis.css" />
-		<script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
-
-		<title>Document</title>
+		<link rel="stylesheet" href="./src/main.css" />
+		<link rel="stylesheet" href="./src/lenis.css" />
+		<title>Ryan Lin</title>
 	</head>
-	<body class="h-[100vh] w-[100vw] bg-[#02050e] ">
-		<section id="header" class="flex justify-center mt-[10vh]">
+	<body>
+		<section id="header" class="bg-[#02050e] justify-center">
 			<h1
 				id="header-text"
-				class="text-huge  h-fit w-fit font-serif text-slate-300 leading-[11rem]"
+				class="text-huge h-fit w-fit font-serif text-slate-300 font-medium"
 			>
-				RYAN <br> LIN
+				RYAN LIN
 			</h1>
 		</section>
+		<section id="about-me" class="bg-slate-600 justify-center px-[20vw]">
+			<h1 class="text-5xl font-bold text" id="about-text">ABOUT ME</h1>
+			<h2 class="text-center">
+				Hi! I am Ryan Lin from Singapore! 🇸🇬 <br />
+				Currently, I am pursuing a diploma in Immersive Media. I am
+				driven to build immersive games and experiences. With a strong
+				passion in game development as well as learning new ways to
+				improve myself. I love tinkering with new technologies and
+				exploring new techniques in doing things.
+			</h2>
+		</section>
+		<section id="top-projects" class="justify-center py-10">
+			<h1 class="p-4">Top Projects</h1>
+			<div class="flex justify-around w-[100vw] px-[2.5vw]">
+				<article class="card">
+					<img src="" alt="" class="w-full aspect-video" />
+					<div class="p-5">
+						<h2 class="font-bold">Solace of Service</h2>
+						<p class="">
+							This is a virtual reality simulator for the daily
+							lives of social service workers. I was in charge of
+							most of the AI code and the backend development
+							which consists of authentication and database
+							operations.
+						</p>
+					</div>
+					<a href="#" class="self-end text-sm">Read More-></a>
+				</article>
+				<article class="card">
+					<img src="" alt="" class="w-full aspect-video" />
+					<div class="p-5">
+						<h2 class="font-bold">Iron Giant</h2>
+						<p class="">
+							This project was to create a 3d character in
+							Autodesk Maya. I learnt how to rig complex
+							characters and use a multi-UV map texturing to
+							create various types of models.
+						</p>
+						<a href="#" class="w-full text-end text-sm"
+							>Read More-></a
+						>
+					</div>
+				</article>
+				<article class="card">
+					<img src="" alt="" class="w-full aspect-video" />
+					<div class="p-5">
+						<h2 class="font-bold">Interactive 3D Game</h2>
+						<p class="">
+							This is a project that I used to familarise myself
+							to unity's features and to learn the C# programming
+							language.
+						</p>
+						<a href="#" class="w-full text-end text-sm"
+							>Read More-></a
+						>
+					</div>
+				</article>
+			</div>
+			<a href="#">Click To See All Projects</a>
+		</section>
+		<section id="timeline" class="bg-blue-200 pb-10">
+			<h1 class="py-10">Timeline</h1>
+			<article class="timeline-element py-5">
+				<div class="w-[35vw]">
+					<h2 class="title">Solace of Service</h2>
+					<p class="timeline-text">
+						This is a virtual reality simulatormade in unity to
+						simulator daily lives of social service workers.
+					</p>
+				</div>
+				<h2 class="date">2/2025</h2>
+			</article>
+			<article class="timeline-element py-5">
+				<div class="w-[35vw]">
+					<h2 class="title">Hot Fuzz Remaster</h2>
+					<p class="timeline-text">
+						I learnt to use protools to remaster a clip for the
+						audio for the movie, “Hot Fuzz”.
+					</p>
+				</div>
+				<h2 class="date">1/2025</h2>
+			</article>
+			<article class="timeline-element py-5">
+				<div class="w-[35vw]">
+					<h2 class="title">Sci-Fi Corridor</h2>
+					<p class="timeline-text">
+						I used the Unity engine and Maya to create a scifi
+						corridor.
+					</p>
+				</div>
+				<h2 class="date">7/2024</h2>
+			</article>
+			<article class="timeline-element py-5">
+				<div class="w-[35vw]">
+					<h2 class="title">Medieval Round Table Hall</h2>
+					<p class="timeline-text">
+						Using modular asset building concept, create a medieval
+						interior setup
+					</p>
+				</div>
+				<h2 class="date">6/2024</h2>
+			</article>
+			<article class="timeline-element py-5">
+				<div class="w-[35vw]">
+					<h2 class="title">Iron Giant</h2>
+					<p class="timeline-text">
+						Using Maya i created and rigged the Iron Giant character
+						and used Mixamo to animate a walk cycle
+					</p>
+				</div>
+				<h2 class="date">1/2024</h2>
+			</article>
+			<article class="timeline-element py-5">
+				<div class="w-[35vw]">
+					<h2 class="title">Chess Set</h2>
+					<p class="timeline-text">
+						Learnt the basics of modeling and texturing by creating
+						a chess set in Maya
+					</p>
+				</div>
+				<h2 class="date">1/2024</h2>
+			</article>
+		</section>
+		<section id="interest " class="justify-center">
+			<h1>Hobbies</h1>
+			<article class="py-5">
+				<div class="w-[35vw]">
+					<h2>Homelab</h2>
+					<p>
+						Since about two years ago, i have started on my homelab
+						journey. It is a old computer that I had bought and run
+						several services for my friends and family. It is
+						running a headless version of debian. This server is
+						hosting a photo backup, media streaming, and file
+						sharing platform, allowing easy access to important
+						files and memories from anywhere. On top of that I run a
+						git server to help my friends and I collaborate on
+						coding projects more efficiently. I also run a Minecraft
+						server for my friends to play on.
+					</p>
+				</div>
+			</article>
+			<article class="py-5">
+				<div class="w-[35vw]">
+					<h2>Taekwondo</h2>
+					<p>
+						I have been doing Taekwondo for about 7 years. I am
+						currently a black belt and I have been participating in
+						various competitions. I have also been a team leader for
+						my schools freshman orientation camp. As a senior member
+						of the team, I help my coaches train the new members and
+						help them learn the basics of Taekwondo. I strive to
+						constantly improve my skills and help others do the
+						same.
+					</p>
+				</div>
+			</article>
+		</section>
+		<section
+			id="contact-me"
+			class="flex flex-col min-h-fit bg-amber-200 justify-center items-center py-10"
+		>
+			<h1>Contact Me</h1>
+			<h2 class="w-fit">
+				Email:
+				<a href="mailto:Ryan@scorchthinks.dev">ryan@scorchthinks.dev</a>
+			</h2>
+			<h2 class="w-fit">
+				Call Me: <a href="tel:+6587924140">(+65) 87924140</a>
+			</h2>
+		</section>
 
-
-		<script type="module" src="main.js"></script>
+		<script type="module" src="./src/main.js"></script>
 	</body>
 </html>
